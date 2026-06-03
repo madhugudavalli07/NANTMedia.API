@@ -19,7 +19,7 @@ builder.Services.AddSwaggerGen(options =>
         Version = "v1"
     });
 
-    // Testing feature branch
+    /// Signup Validation Added
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",

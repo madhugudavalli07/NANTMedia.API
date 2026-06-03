@@ -18,7 +18,7 @@ builder.Services.AddSwaggerGen(options =>
         Title = "NANTMedia API",
         Version = "v1"
     });
-
+    // Login Validation Added
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
